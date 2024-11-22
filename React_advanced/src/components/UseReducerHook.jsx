@@ -17,7 +17,7 @@ const UseReducerHook = () => {
 
   return (
     <div>
-      <h2>------UseReducerHook------</h2>
+      <h2>-UseReducerHook-</h2>
       <h3> Count: {state.count}</h3>
       <button onClick={() => dispatch({ type: "INCREASE" })}>INCREASE</button>
 

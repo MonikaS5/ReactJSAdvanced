@@ -1,4 +1,5 @@
 import "./App.css";
+import ReduxState from "./components/ReduxState";
 import UseReducerHook from "./components/UseReducerHook";
 import ZustandState from "./components/ZustandState";
 
@@ -8,6 +9,8 @@ function App() {
       <UseReducerHook />
       <br />
       <ZustandState />
+      <br />
+      <ReduxState />
     </>
   );
 }

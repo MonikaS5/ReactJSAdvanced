@@ -15,7 +15,7 @@ const ZustandState = () => {
 
   return (
     <div>
-      <h2>----Zustand State Management Library----</h2>
+      <h2>-Zustand State Management Library-</h2>
       <h4>Count : {count}</h4>
       <button onClick={increase}>INCREASE</button>
       <button onClick={decrease}>DECREASE</button>
